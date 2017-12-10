@@ -1,0 +1,94 @@
+.GridContainer{
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px; 
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+ .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-width: 5px;
+    border-radius: 5px;
+} 
+
+.grid__item{
+    width: 300px; 
+    height: auto;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;   
+}  
+
+
+.GridHeaderContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin: 0 10%;
+}
+
+.GridHeaderSwitchContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.GridHeaderSliderContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.SliderCurrentSetText{
+    font-size: 1.4rem;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.SwitchText{
+    font-size: 1.4rem; 
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 6px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    width: 70px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 5px; 
+    background: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+.NothingFoundText{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f9f9f9af;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

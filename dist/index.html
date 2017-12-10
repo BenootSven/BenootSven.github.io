@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Project</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="style/screen.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<header class="row--header">
+		<div class="header">
+			<div class="logo">
+				<img src="https://corehealth.global/images/default-source/partner-logos/edamam_logo.png?sfvrsn=3d075ab3_4" alt="Logo">
+			</div>
+			<p class="title">
+				Project Create
+			</p>
+			<nav class="search">
+				<input type="text" placeholder="Search.." id="InputName" class="Input">
+				<button id="nameSearch" class="SearchButton">Search</button>
+			</nav>
+		</div>
+	</header>
+	<div class="GridContainer">
+		<div class="GridHeaderContainer">
+			<div class="GridHeaderSwitchContainer">
+				<p class="SwitchText">Gluten free:</p>
+				<label class="switch">
+					<input type="checkbox" id="CheckboxGlutenFree">
+					<span class="Chooser round"></span>
+				</label>
+			</div>
+			<div class="GridHeaderSliderContainer">
+				<p class="SliderCurrentSetText">Items to show:
+					<span id="CurrentSet"></span>
+				</p>
+				<input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+			</div>
+		</div>
+		<div class="grid" id="Grid_Main">
+		</div>
+	</div>
+	<script src="script/app.min.js"></script>
+</body>
+<div class="footer">
+	<a href="Page/contact.html" class="LinkToContactPage">Contact</a>
+</div>
+</html>

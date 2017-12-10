@@ -1,0 +1,62 @@
+.ContactFormContainer{
+    margin: 100px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+} 
+
+@media screen and (min-width: 1500px){
+    .ContactFormContainer{
+        margin-left: 300px;
+        margin-right: 300px;
+    } 
+} 
+
+@media screen and (max-width: 686px){
+    .ContactFormContainer{
+        margin: 10px;
+    } 
+} 
+
+.ContactText{
+    font-size: 20px;
+}
+
+.ContactInput{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.ContactInputMassage{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height: 200px;
+}
+
+.SubmitButton{
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.ContactRow4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

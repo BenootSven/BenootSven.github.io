@@ -1,0 +1,22 @@
+@media screen and (max-width: 686px){
+    .title{
+        display: none;
+    }
+
+    .GridHeaderContainer{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .GridHeaderSliderContainer{
+        margin-top: 15px;
+    }
+} 
+
+@media screen and (max-width: 540px){
+    .header{
+        height: 100px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

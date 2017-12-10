@@ -1,0 +1,13 @@
+body, html{
+    font-family: $font-stack;
+	font-size: 13px;
+	font-family: 'Roboto';
+	background: url(http://www.v3wall.com/wallpaper/1920_1080/0911/1920_1080_20091119011308227616.jpg) no-repeat center center fixed;
+	// background: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t34.0-12/24829078_318609091879798_1706948325_n.png?oh=bec2ebd06a7ac7f57fe2052f70a74a78&oe=5A2A1F82) no-repeat center center fixed;
+	background-size: cover;
+}
+
+html{
+	position: relative;
+	min-height: 100%;
+}

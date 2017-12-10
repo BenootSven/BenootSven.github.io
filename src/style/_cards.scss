@@ -1,0 +1,64 @@
+.recipe__body{
+    position: relative;
+    background-attachment: fixed;
+}
+.recipe__body--image{
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    box-shadow: 5px 5px 10px rgba(182, 228, 177, 0.726);
+}
+
+.recipe__body--description{
+    display: block;
+    background-color: rgba(139, 245, 142, 0.726);
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+    width: 98%;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.recipe__body--DescriptionContent{ 
+    display: none; 
+    margin-top: 10px;
+    position: relative;
+    background-color: #f9f9f9af;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 0px;
+}
+
+.recipe__body--DescriptionContent p{ 
+    margin-bottom: 10px;
+}
+
+.recipe__body--DescriptionContent span{
+    font-size: 1.15rem;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.recipe__body--description:hover .recipe__body--DescriptionContent{
+    display: block;
+}
+
+.recipe__body--description h2{ 
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+}  
+
+.Link{
+    text-decoration: None;
+    color: black;
+    font-weight: bold;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
